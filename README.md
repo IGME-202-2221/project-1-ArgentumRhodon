@@ -4,29 +4,29 @@
 
 ### Student Info
 
--   Name: YOUR NAME
--   Section: ##
+-   Name: Lucas Corey
+-   Section: 03
 
 ## Game Design
 
--   Camera Orientation: _How are the art assets viewed from? (ie. topdown or side)_
--   Camera Movement: _How does the camera move in your game? (if at all)_
--   Player Health: _How are you handling player health? (healthbar, lives, ?)_
--   End Condition: _How does a game/round/level end?_
--   Scoring: _How does the player earn points in your game?_
+-   Camera Orientation: Top-down
+-   Camera Movement: Camera will be locked for the most part.
+-   Player Health: The player will have a limited number of lives.
+-   End Condition: The game will end when the player runs out of lives.
+-   Scoring: The player earns points by defeating enemies, picking up collectibles, and after completing each level.
 
 ### Game Description
 
-_A brief explanation of your game. Inculde what is the objective for the player. Think about what would go on the back of a game box._
+In this game, the you will fight waves of enemies in a limitless number of levels until you run out of lives. So shoot for a higher score each time! The player (and enemies) will be restricted to a map smaller than the screen, and you will have to run around and dodge enemies and enemy projectiles as you save friendly creatures from the onslaught (these are the collectibles). In each level, there will be a chance to get a powerup (or even two) to make the level easier.
 
 ### Controls
 
 -   Movement
-    -   Up: 
-    -   Down: 
-    -   Left: 
-    -   Right: 
--   Fire: 
+    -   Up: W / Up Arrow
+    -   Down: S / Down Arrow
+    -   Left: A / Left Arrow
+    -   Right: D / Right Arrow
+-   Fire: Left-click
 
 ## You Additions
 
