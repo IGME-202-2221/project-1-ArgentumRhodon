@@ -17,7 +17,7 @@
 
 ### Game Description
 
-In this game, the you will fight waves of enemies in a limitless number of levels until you run out of lives. So shoot for a higher score each time! The player (and enemies) will be restricted to a map smaller than the screen, and you will have to run around and dodge enemies and enemy projectiles as you save friendly creatures from the onslaught (these are the collectibles). In each level, there will be a chance to get a powerup (or even two) to make the level easier.
+In this game, the you will fight waves of enemies in a limitless number of levels until you run out of lives. So shoot for a higher score each time! The player (and enemies) will be restricted to a map smaller than the screen, and you will have to fly around and dodge enemies and enemy projectiles as you save friendly ships from the onslaught (these are the collectibles). In each level, there will be a chance to get a powerup (or even two) to make the level easier.
 
 ### Controls
 
@@ -28,9 +28,12 @@ In this game, the you will fight waves of enemies in a limitless number of level
     -   Right: D / Right Arrow
 -   Fire: Left-click
 
-## You Additions
+## Your Additions
 
-_List out what you added to your game to make it different for you_
+1. I plan on making all of the art for this game. It will be pixel art due to style preferences and time constraints.
+2. I also plan on making lots of different enemy types and powerups. Enemy generation will be random.
+3. I also hope to include high scores, and menus.
+4. The main thing that will differentiate this game from the others is the unique style of the art.
 
 ## Sources
 
