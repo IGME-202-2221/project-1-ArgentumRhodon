@@ -10,11 +10,13 @@ GameObject:
   m_Component:
   - component: {fileID: 4571594077383807048}
   - component: {fileID: 4571594077383807051}
-  - component: {fileID: 4571594077383807049}
   - component: {fileID: 8477885963943899177}
+  - component: {fileID: 4571594077383807049}
+  - component: {fileID: 24715768636224599}
+  - component: {fileID: -6626649335371834744}
   m_Layer: 0
   m_Name: Player Projectile
-  m_TagString: Untagged
+  m_TagString: PlayerProjectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86,6 +88,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &8477885963943899177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571594077383807050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7a579e7641070644bdf2368b117453b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isCurrentlyColliding: 0
+  collidingObjects: []
 --- !u!114 &4571594077383807049
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -101,7 +117,7 @@ MonoBehaviour:
   speed: 10
   direction: {x: 0, y: 1, z: 0}
   velocity: {x: 0, y: 0}
---- !u!114 &8477885963943899177
+--- !u!114 &24715768636224599
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -110,8 +126,21 @@ MonoBehaviour:
   m_GameObject: {fileID: 4571594077383807050}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7a579e7641070644bdf2368b117453b, type: 3}
+  m_Script: {fileID: 11500000, guid: 706ef661f2193e241b037651f411578e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  isCurrentlyColliding: 0
-  spriteRenderer: {fileID: 0}
+--- !u!114 &-6626649335371834744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4571594077383807050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dae735a254bc37d4b870e66f34e250f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectsThatDestroy:
+  - Enemy
+  - EnemyProjectile
