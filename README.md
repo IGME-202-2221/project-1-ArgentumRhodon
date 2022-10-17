@@ -1,4 +1,4 @@
-# Project PROJECT_NAME
+# Project 1: SHMUP
 
 [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Here-Cheatsheet)
 
