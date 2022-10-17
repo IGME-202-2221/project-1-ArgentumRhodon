@@ -13,11 +13,14 @@
 -   Camera Movement: Camera will be locked for the most part.
 -   Player Health: The player will have a limited number of lives.
 -   End Condition: The game will end when the player runs out of lives.
--   Scoring: The player earns points by defeating enemies, picking up collectibles, and after completing each level.
+-   Scoring: The player earns points by defeating enemies.
+
+
+-   Controls: WASD and hold left click to fire.
 
 ### Game Description
 
-In this game, the you will fight waves of enemies in a limitless number of levels until you run out of lives. So shoot for a higher score each time! The player (and enemies) will be restricted to a map smaller than the screen, and you will have to fly around and dodge enemies and enemy projectiles as you save friendly ships from the onslaught (these are the collectibles). In each level, there will be a chance to get a powerup (or even two) to make the level easier.
+In this game, the you will fight waves of enemies in a limitless number of levels until you run out of lives. So shoot for a higher score each time! The player (and enemies) will be restricted to a map smaller than the screen, and you will have to fly around and dodge enemies and enemy projectiles as you save friendly ships from the onslaught (these are the collectibles).
 
 ### Controls
 
@@ -30,21 +33,18 @@ In this game, the you will fight waves of enemies in a limitless number of level
 
 ## Your Additions
 
-1. I plan on making all of the art for this game. It will be pixel art due to style preferences and time constraints.
-2. I also plan on making lots of different enemy types and powerups. Enemy generation will be random.
-3. I also hope to include high scores, and menus.
-4. The main thing that will differentiate this game from the others is the unique style of the art.
+1. I made all art for the game.
+2. I only managed to make 2 different types of enemies, but I think they're nice.
+7. The main thing that will differentiate this game from the others is the unique style of the art.
 
 ## Sources
 
--   _List all project sources here –models, textures, sound clips, assets, etc._
--   _If an asset is from the Unity store, include a link to the page and the author’s name_
+-All me.
 
 ## Known Issues
 
-_List any errors, lack of error checking, or specific information that I need to know to run your program_
+There might be some errors with collision and object deletion that I haven't run into yet, but I think I've added anough guard clauses to prevent that.
 
 ### Requirements not completed
-
-_If you did not complete a project requirement, notate that here_
+Pretty sure they're all met.
 
